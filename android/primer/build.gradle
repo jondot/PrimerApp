@@ -1,0 +1,8 @@
+plugins {
+    id "org.golang.mobile.bind" version "0.2.6"
+}
+gobind {
+    pkg = "github.com/jondot/primer-bind/primer"
+    GOPATH = "/Users/dotan.nahum/data/workspaces/golang"
+    GO = "/usr/local/bin/go"
+}

@@ -1,0 +1,7 @@
+framework module "Primer" {
+    header "GoPrimer.h"
+    header "GoUniverse.h"
+    header "Primer.h"
+
+    export *
+}
